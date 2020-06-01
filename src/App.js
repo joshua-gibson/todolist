@@ -3,9 +3,9 @@ import './App.css';
 
 function App() {
   const [todos, setTodos] = useState([
-    { text: 'Learn aout React' },
+    { text: 'Learn aout React Hooks' },
     { text: 'Meet friend for lunch' },
-    { text: 'Build cool App' },
+    { text: 'Build cool React App' },
   ]);
 
   const Todo = ({ todo }) => <div className="todo">{todo.text}</div>;
